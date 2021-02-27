@@ -1,1 +1,1 @@
-This repo holds fortran codes written during my masters computer simulations in science
+This repo holds fortran codes written during my postgrad course Masters Computer Simulations in Science at the Bergische Universitat Wuppertal Wuppertal, NRW, Germany
