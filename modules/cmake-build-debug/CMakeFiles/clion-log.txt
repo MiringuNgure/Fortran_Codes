@@ -1,0 +1,11 @@
+"C:\Program Files\JetBrains\CLion 2020.1\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - MinGW Makefiles" E:\fortran_projects\modules
+-- The Fortran compiler identification is GNU 8.1.0
+-- Check for working Fortran compiler: C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/gfortran.exe
+-- Check for working Fortran compiler: C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/gfortran.exe  -- works
+-- Detecting Fortran compiler ABI info
+-- Detecting Fortran compiler ABI info - done
+-- Checking whether C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/gfortran.exe supports Fortran 90
+-- Checking whether C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/gfortran.exe supports Fortran 90 -- yes
+-- Configuring done
+-- Generating done
+-- Build files have been written to: E:/fortran_projects/modules/cmake-build-debug
