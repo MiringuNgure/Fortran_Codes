@@ -34,6 +34,12 @@ program array
     end where
 
     write(*,"(A)", advance = "no") "n= "
+    read *, n
+    allocate (m4 (n,n))
+    do concurrent (i=1:n, j=1:n)
+        m4(i,j) =  (dble(1)+dble(j))**2
+    end do
 
-    print "(4(F10.2))", transpose(a)
+    print "(5(F10.2))", m4
+    deallocate(m4)
 end program array
