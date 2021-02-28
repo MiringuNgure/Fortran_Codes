@@ -26,14 +26,14 @@ end subroutine countcalls
 program functions_Subroutines
     implicit none
     double precision:: c
-    real :: asin
     integer :: i
+    real :: x = 3.14
     call hypotenuse(3d0,4d0,c)
     print*, c
     call addone(c)
     print*, c
 
-    print*, "2*asin(1) = ", 2 * asin(1)
+    print*, "2*asin(1) = ", 2 * sin(x)
 end program functions_Subroutines
 
 ! subroutine 4 for in and out intents
